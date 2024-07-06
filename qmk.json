@@ -1,6 +1,8 @@
 {
     "userspace_version": "1.0",
     "build_targets": [
-        ["ferris/sweep", "pket"]
+        ["ferris/sweep", "pket"],
+        ["totem", "pket"],
+        ["dasbob", "pket"]
     ]
 }

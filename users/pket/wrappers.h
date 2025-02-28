@@ -31,12 +31,12 @@
 #define ________________GRAPHITE_L2_5______________ KC_N,    KC_R,    KC_T,    KC_S,    KC_G
 #define ________________GRAPHITE_L3_5______________ KC_Q,    KC_X,    KC_M,    KC_C,    KC_V
 
-#define ________________GRAPHITE_R1_5______________ KC_J,    KC_F,    KC_O,    KC_U,    KC_SCLN
+#define ________________GRAPHITE_R1_5______________ KC_SCLN, KC_F,    KC_O,    KC_U,    KC_J
 #define ________________GRAPHITE_R2_5______________ KC_Y,    KC_H,    KC_A,    KC_E,    KC_I
 #define ________________GRAPHITE_R3_5______________ KC_K,    KC_P,    KC_COMM, KC_DOT,  KC_SLSH
 
 #define ________________LOWER__L1_5________________ KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
-#define ________________LOWER__L2_5________________ _______, _______, _______, _______, KC_GRV
+#define ________________LOWER__L2_5________________ _______, _______, KC_DQUO, KC_QUOT, KC_GRV
 #define ________________LOWER__L3_5________________ KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_TILD
 
 #define ________________LOWER__R1_5________________ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
@@ -57,7 +57,7 @@
 
 #define ________________NAV_R1_5___________________ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
 #define ________________NAV_R2_5___________________ KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX
-#define ________________NAV_R3_5___________________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+#define ________________NAV_R3_5___________________ XXXXXXX, KC_UNDS, XXXXXXX, XXXXXXX, XXXXXXX
 
 #define ________________SYSTEM_L1_5________________ QUIT,    CLOSE,   SW_WIN,  SW_APP,  ITERM
 #define ________________SYSTEM_L2_5________________ _______, _______, _______, _______, ALFRED
@@ -73,12 +73,12 @@
 
 #define ________________ADJUST_R1_5________________ KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
 #define ________________ADJUST_R2_5________________ DFL_COL, CK_UP,   CK_TOGG, CK_DOWN, KC_F11
-#define ________________ADJUST_R3_5________________ _______, DFL_GA2, DFL_GAL, _______, KC_F12
+#define ________________ADJUST_R3_5________________ _______, DFL_GA2, DFL_GAL, DFL_GRA, KC_F12
 
-#define ___THUMB_LEFT___ SYS_REP, LOW_SPC
+#define ___THUMB_LEFT___ SYSTEM, LOW_SPC
 #define ___THUMB_RIGHT__ RAI_ESC, NAV_BSP
 
-#define _______THUMB_LEFT________ _______, SYS_REP, LOW_SPC
+#define _______THUMB_LEFT________ _______, SYSTEM, LOW_SPC
 #define _______THUMB_RIGHT_______ RAI_ENT, NAV_BSP, KC_COLN
 
 #define _______THUMB_LEFT_2______ SYS_REP, LOW_SPC, KC_ESC
@@ -137,4 +137,5 @@
 
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT_wrapper_eg(...) LAYOUT_eg(__VA_ARGS__)
 #define LAYOUT_wrapper_3x5_3(...) LAYOUT_split_3x5_3(__VA_ARGS__)

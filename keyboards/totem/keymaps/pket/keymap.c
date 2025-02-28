@@ -45,6 +45,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                               _______THUMB_LEFT________,     _______THUMB_RIGHT_______
     ),
 
+    [_GRAPHITE] = LAYOUT_wrapper(
+            ________________GRAPHITE_L1_5______________,     ________________GRAPHITE_R1_5______________,
+            ________________GRAPHITE_L2_5______________,     ________________GRAPHITE_R2_5______________,
+      KC_Q, ________________GRAPHITE_L3_5______________,     ________________GRAPHITE_R3_5______________, KC_SCLN,
+                              _______THUMB_LEFT________,     _______THUMB_RIGHT_______
+    ),
+
     [_LOWER] = LAYOUT_wrapper(
             ________________LOWER__L1_5________________,     ________________LOWER__R1_5________________,
             ________________LOWER__L2_5________________,     ________________LOWER__R2_5________________,

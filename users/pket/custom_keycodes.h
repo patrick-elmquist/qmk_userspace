@@ -43,7 +43,8 @@ enum custom_keycodes {
 #define FORWARD RGUI(KC_RBRC)
 
 #define ALFRED RGUI(KC_SPC)
-#define ITERM RGUI(KC_ESC)
+// #define ITERM RGUI(KC_ESC)
+#define ITERM RGUI(S(KC_B))
 #define BSP_WRD LALT(KC_BSPC)
 
 #define LOW_ENT LT(_LOWER, KC_ENT)
@@ -78,4 +79,5 @@ enum custom_keycodes {
 #define DFL_COL DF(_COLEMAK)
 #define DFL_GAL DF(_GALLIUM)
 #define DFL_GA2 DF(_GALLIUM_V2)
+#define DFL_GRA DF(_GRAPHITE)
 

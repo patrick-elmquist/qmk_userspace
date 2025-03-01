@@ -43,7 +43,6 @@ enum custom_keycodes {
 #define FORWARD RGUI(KC_RBRC)
 
 #define ALFRED RGUI(KC_SPC)
-// #define ITERM RGUI(KC_ESC)
 #define ITERM RGUI(S(KC_B))
 #define BSP_WRD LALT(KC_BSPC)
 

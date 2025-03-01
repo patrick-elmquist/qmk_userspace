@@ -21,21 +21,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       ________________COLEMAK_L1_5_______________,     ________________COLEMAK_R1_5_______________,
       ________________COLEMAK_L2_5_______________,     ________________COLEMAK_R2_5_______________,
       ________________COLEMAK_L3_5_______________,     ________________COLEMAK_R3_5_______________,
-      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ESC,                   KC_RSFT
-    ),
-
-    [_GALLIUM] = LAYOUT_wrapper_eg(
-      ________________GALLIUM_L1_5_______________,     ________________GALLIUM_R1_5_______________,
-      ________________GALLIUM_L2_5_______________,     ________________GALLIUM_R2_5_______________,
-      ________________GALLIUM_L3_5_______________,     ________________GALLIUM_R3_5_______________,
-      KC_LSFT,                   ___THUMB_LEFT___,     ___THUMB_RIGHT__,                   KC_RSFT
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
     ),
 
     [_GRAPHITE] = LAYOUT_wrapper_eg(
       ________________GRAPHITE_L1_5______________,     ________________GRAPHITE_R1_5______________,
       ________________GRAPHITE_L2_5______________,     ________________GRAPHITE_R2_5______________,
       ________________GRAPHITE_L3_5______________,     ________________GRAPHITE_R3_5______________,
-      KC_LSFT,                   ___THUMB_LEFT___,     ___THUMB_RIGHT__,                   KC_RSFT
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
     ),
 
     [_LOWER] = LAYOUT_wrapper_eg(

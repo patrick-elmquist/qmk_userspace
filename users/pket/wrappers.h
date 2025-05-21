@@ -35,6 +35,14 @@
 #define ________________GRAPHITE_R2_5______________ KC_Y,    KC_H,    KC_A,    KC_E,    KC_I
 #define ________________GRAPHITE_R3_5______________ KC_K,    KC_P,    KC_COMM, KC_DOT,  KC_SLSH
 
+#define ________________QWERTY_L1_5________________ KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
+#define ________________QWERTY_L2_5________________ KC_A,    KC_S,    KC_D,    KC_F,    KC_G
+#define ________________QWERTY_L3_5________________ KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
+
+#define ________________QWERTY_R1_5________________ KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
+#define ________________QWERTY_R2_5________________ KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN
+#define ________________QWERTY_R3_5________________ KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
+
 #define ________________LOWER__L1_5________________ KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
 #define ________________LOWER__L2_5________________ _______, _______, _______, _______, KC_GRV
 #define ________________LOWER__L3_5________________ _______, _______, _______, _______, KC_TILD
@@ -48,7 +56,7 @@
 #define ________________RAISE__L3_5________________ KC_GT,   KC_DLR,  KC_RPRN, KC_RCBR, KC_RBRC
 
 #define ________________RAISE__R1_5________________ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
-#define ________________RAISE__R2_5________________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX
+#define ________________RAISE__R2_5________________ XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_BSPC
 #define ________________RAISE__R3_5________________ XXXXXXX, KC_UNDS, _______, _______, _______
 
 #define ________________NAV_L1_5___________________ KC_1,    KC_2,    KC_3,    KC_4,    KC_5
@@ -56,7 +64,7 @@
 #define ________________NAV_L3_5___________________ KC_GT,   KC_RCBR, KC_RPRN, KC_COMM, KC_RBRC
 
 #define ________________NAV_R1_5___________________ KC_6,    KC_7,    KC_8,    KC_9,    KC_0
-#define ________________NAV_R2_5___________________ KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX
+#define ________________NAV_R2_5___________________ KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_BSPC
 #define ________________NAV_R3_5___________________ XXXXXXX, KC_UNDS, XXXXXXX, XXXXXXX, XXXXXXX
 
 #define ________________SYSTEM_L1_5________________ QUIT,    CLOSE,   SW_WIN,  SW_APP,  ITERM
@@ -73,7 +81,7 @@
 
 #define ________________ADJUST_R1_5________________ KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
 #define ________________ADJUST_R2_5________________ DFL_COL, CK_UP,   CK_TOGG, CK_DOWN, KC_F11
-#define ________________ADJUST_R3_5________________ DFL_GRA, DFL_GA2, DFL_GAL, _______, KC_F12
+#define ________________ADJUST_R3_5________________ DFL_GRA, DFL_GA2, DFL_GAL, DFL_QWE, KC_F12
 
 #define ___THUMB_LEFT___ SYSTEM, LOW_SPC
 #define ___THUMB_RIGHT__ RAI_ESC, NAV_BSP

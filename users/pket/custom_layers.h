@@ -5,6 +5,7 @@ enum layers {
     _GALLIUM,
     _GALLIUM_V2,
     _GRAPHITE,
+    _QWERTY,
     _LOWER,
     _RAISE,
     _NAV,

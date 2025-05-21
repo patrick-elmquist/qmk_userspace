@@ -76,6 +76,7 @@ enum custom_keycodes {
 #define CNRY_A RCTL_T(KC_A)
 
 #define DFL_COL DF(_COLEMAK)
+#define DFL_QWE DF(_QWERTY)
 #define DFL_GAL DF(_GALLIUM)
 #define DFL_GA2 DF(_GALLIUM_V2)
 #define DFL_GRA DF(_GRAPHITE)

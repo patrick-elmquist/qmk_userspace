@@ -39,20 +39,20 @@ uint16_t get_combo_term(uint16_t index, combo_t *combo) {
         case XD_CUT:
         case ZX_UNDO:
         case UY_QUOT:
-        case EI_TAB:
-        case NI_EQL:
             return 40;
 
+        case EI_TAB:
+        case NI_EQL:
         case NE_ESC:
-            return 50;
+            return 60;
 
+        case HCOM_DQUOT:
         case VCB_LN:
             return 55;
 
         case WP_CBR_PAIR:
         case WF_LCBR:
         case FP_RCBR:
-        case HCOM_DQUOT:
         case SWE_AO:
         case SWE_AE:
         case SWE_OE:

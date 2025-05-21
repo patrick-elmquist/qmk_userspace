@@ -24,10 +24,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
     ),
 
+    [_GALLIUM] = LAYOUT_wrapper_eg(
+      ________________GALLIUM_L1_5_______________,     ________________GALLIUM_R1_5_______________,
+      ________________GALLIUM_L2_5_______________,     ________________GALLIUM_R2_5_______________,
+      ________________GALLIUM_L3_5_______________,     ________________GALLIUM_R3_5_______________,
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
+    ),
+
+    [_GALLIUM_V2] = LAYOUT_wrapper_eg(
+      ________________GALLIUM_V2_L1_5____________,     ________________GALLIUM_V2_R1_5____________,
+      ________________GALLIUM_V2_L2_5____________,     ________________GALLIUM_V2_R2_5____________,
+      ________________GALLIUM_V2_L3_5____________,     ________________GALLIUM_V2_R3_5____________,
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
+    ),
+
     [_GRAPHITE] = LAYOUT_wrapper_eg(
       ________________GRAPHITE_L1_5______________,     ________________GRAPHITE_R1_5______________,
       ________________GRAPHITE_L2_5______________,     ________________GRAPHITE_R2_5______________,
       ________________GRAPHITE_L3_5______________,     ________________GRAPHITE_R3_5______________,
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
+    ),
+
+    [_QWERTY] = LAYOUT_wrapper_eg(
+      ________________QWERTY_L1_5________________,     ________________QWERTY_R1_5________________,
+      ________________QWERTY_L2_5________________,     ________________QWERTY_R2_5________________,
+      ________________QWERTY_L3_5________________,     ________________QWERTY_R3_5________________,
       KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
     ),
 

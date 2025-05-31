@@ -5,7 +5,7 @@
 #define COMBO_TERM 35
 #define COMBO_TERM_PER_COMBO
 #define COMBO_MUST_TAP_PER_COMBO
-#define COMBO_ONLY_FROM_LAYER 0
+// #define COMBO_ONLY_FROM_LAYER 0
 #define COMBO_SHOULD_TRIGGER
 
 #define TAPPING_TERM_PER_KEY
@@ -15,7 +15,10 @@
 
 #define SPLIT_MODS_ENABLE
 
-#define THUMB_EXTRA 45
+#define ONESHOT_TAP_TOGGLE 3  /* Tapping this number of times holds the key until tapped once again. */
+#define ONESHOT_TIMEOUT 2500  /* Time (in ms) before the one shot key is released */
+
+#define THUMB_EXTRA 0
 #define INDEX_EXTRA 0
 #define LONG_EXTRA 0
 #define RING_EXTRA 0

@@ -47,7 +47,8 @@ enum custom_keycodes {
 #define BSP_WRD LALT(KC_BSPC)
 
 #define LOW_ENT LT(_LOWER, KC_ENT)
-#define RAI_ENT LT(_RAISE, KC_ENT)
+//#define RAI_ENT LT(_RAISE, KC_ENT)
+#define RAI_ENT OSM(MOD_RSFT)
 #define RAI_ESC LT(_RAISE, KC_ESC)
 #define SYS_REP LT(_SYSTEM, KC_ENT)
 #define RAI_BSP LT(_RAISE, KC_BSPC)
@@ -68,6 +69,11 @@ enum custom_keycodes {
 #define HOME_E RGUI_T(KC_E)
 #define HOME_I LALT_T(KC_I)
 #define HOME_O RCTL_T(KC_O)
+
+#define OSM_CTL OSM(MOD_LCTL)
+#define OSM_ALT OSM(MOD_LALT)
+#define OSM_GUI OSM(MOD_LGUI)
+#define OSM_SFT OSM(MOD_LSFT)
 
 // Left-hand home row mods Canary
 #define CNRY_C LCTL_T(KC_C)

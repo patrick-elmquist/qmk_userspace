@@ -44,7 +44,7 @@
 #define ________________QWERTY_R3_5________________ KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
 
 #define ________________LOWER__L1_5________________ KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
-#define ________________LOWER__L2_5________________ _______, _______, _______, _______, KC_GRV
+#define ________________LOWER__L2_5________________ OSM_CTL, OSM_ALT, OSM_GUI, OSM_SFT, KC_GRV
 #define ________________LOWER__L3_5________________ _______, _______, _______, _______, KC_TILD
 
 #define ________________LOWER__R1_5________________ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN

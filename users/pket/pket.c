@@ -187,51 +187,51 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         // TODO should perhaps add some fixes for GALLIUM rolls as well
         // TODO evalutate if the current home row fixes are an issue for GALLIUM
-        case HOME_T:
-            if (record->event.pressed && record->tap.count > 0) {
-                if (get_mods() & MOD_BIT(KC_LGUI)) {
-                    unregister_mods(MOD_BIT(KC_LGUI));
-                    tap_code(KC_S);
-                    tap_code(KC_T);
-                    add_mods(MOD_BIT(KC_LGUI));
-                    return false;
-                }
-            }
-        case HOME_R:
-            if (record->event.pressed && record->tap.count > 0) {
-                if (get_mods() & MOD_BIT(KC_LCTL)) {
-                    unregister_mods(MOD_BIT(KC_LCTL));
-                    tap_code(KC_A);
-                    tap_code(KC_R);
-                    add_mods(MOD_BIT(KC_LCTL));
-                    return false;
-                }
-            }
-            return true;
+        // case HOME_T:
+        //     if (record->event.pressed && record->tap.count > 0) {
+        //         if (get_mods() & MOD_BIT(KC_LGUI)) {
+        //             unregister_mods(MOD_BIT(KC_LGUI));
+        //             tap_code(KC_S);
+        //             tap_code(KC_T);
+        //             add_mods(MOD_BIT(KC_LGUI));
+        //             return false;
+        //         }
+        //     }
+        // case HOME_R:
+        //     if (record->event.pressed && record->tap.count > 0) {
+        //         if (get_mods() & MOD_BIT(KC_LCTL)) {
+        //             unregister_mods(MOD_BIT(KC_LCTL));
+        //             tap_code(KC_A);
+        //             tap_code(KC_R);
+        //             add_mods(MOD_BIT(KC_LCTL));
+        //             return false;
+        //         }
+        //     }
+        //     return true;
 
-        case HOME_E:
-            if (record->event.pressed && record->tap.count > 0) {
-                if (get_mods() & MOD_BIT(KC_RSFT)) {
-                    unregister_mods(MOD_BIT(KC_RSFT));
-                    tap_code(KC_N);
-                    tap_code(KC_E);
-                    add_mods(MOD_BIT(KC_RSFT));
-                    return false;
-                }
-            }
-            return true;
+        // case HOME_E:
+        //     if (record->event.pressed && record->tap.count > 0) {
+        //         if (get_mods() & MOD_BIT(KC_RSFT)) {
+        //             unregister_mods(MOD_BIT(KC_RSFT));
+        //             tap_code(KC_N);
+        //             tap_code(KC_E);
+        //             add_mods(MOD_BIT(KC_RSFT));
+        //             return false;
+        //         }
+        //     }
+        //     return true;
 
-        case HOME_N:
-            if (record->event.pressed && record->tap.count > 0) {
-                if (get_mods() & MOD_BIT(KC_RGUI)) {
-                    unregister_mods(MOD_BIT(KC_RGUI));
-                    tap_code(KC_E);
-                    tap_code(KC_N);
-                    add_mods(MOD_BIT(KC_RGUI));
-                    return false;
-                }
-            }
-            return true;
+        // case HOME_N:
+        //     if (record->event.pressed && record->tap.count > 0) {
+        //         if (get_mods() & MOD_BIT(KC_RGUI)) {
+        //             unregister_mods(MOD_BIT(KC_RGUI));
+        //             tap_code(KC_E);
+        //             tap_code(KC_N);
+        //             add_mods(MOD_BIT(KC_RGUI));
+        //             return false;
+        //         }
+        //     }
+        //     return true;
 
         case KC_BSPC: {
             // Initialize a boolean variable that keeps track
@@ -306,10 +306,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case SE_AE:
         case SE_OE:
             if (record->event.pressed) {
-                uint8_t mod_state = get_mods();
-                if (mod_state & MOD_MASK_SHIFT) {
-                    del_mods(MOD_MASK_SHIFT);
-                }
+                del_mods(MOD_MASK_SHIFT);
                 tap_code16(A(KC_U));
                 set_mods(mod_state);
                 tap_code16(keycode == SE_AE ? KC_A : KC_O);

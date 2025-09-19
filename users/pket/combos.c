@@ -24,8 +24,6 @@ bool combo_should_trigger(
 
 uint16_t get_combo_term(uint16_t index, combo_t *combo) {
     switch (index) {
-
-        case RAI_ENT:
         case RS_LPRN:
         case ST_RPRN:
         case RT_PRN_PAIR:
@@ -39,16 +37,20 @@ uint16_t get_combo_term(uint16_t index, combo_t *combo) {
         case XD_CUT:
         case ZX_UNDO:
         case UY_QUOT:
-            return 40;
+            return 45;
 
         case EI_TAB:
         case NI_EQL:
         case NE_ESC:
-            return 60;
+            return 65;
 
         case HCOM_DQUOT:
         case VCB_LN:
             return 55;
+
+        case WFP_CBR_PAIR_IN:
+        case RST_PRN_PAIR_IN:
+            return 50;
 
         case WP_CBR_PAIR:
         case WF_LCBR:
@@ -58,8 +60,6 @@ uint16_t get_combo_term(uint16_t index, combo_t *combo) {
         case SWE_OE:
         case LTGT_ARROW:
         case XCD_PASTE_SFT:
-        case WFP_CBR_PAIR_IN:
-        case RST_PRN_PAIR_IN:
         case NEI_ENT:
             return 45;
 

@@ -8,7 +8,7 @@ bool sw_win_active = false;
 bool sw_app_active = false;
 
 layer_state_t layer_state_set_user(layer_state_t state) {
-    return update_tri_layer_state(state, _LOWER, _NAV, _ADJUST);
+    return update_tri_layer_state(state, _SYSTEM, _NAV, _ADJUST);
 }
 
 // Xcase functions
@@ -168,6 +168,8 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     );
     #endif
 
+    mod_state = get_mods();
+
     update_swapper(&sw_win_active, KC_LGUI, KC_TAB, SW_WIN, keycode, record);
     update_swapper(&sw_app_active, KC_LGUI, KC_GRV, SW_APP, keycode, record);
 
@@ -181,8 +183,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     if (record->event.pressed) {
         append_keylog(keycode);
     }
-
-    mod_state = get_mods();
 
     switch (keycode) {
         // TODO should perhaps add some fixes for GALLIUM rolls as well

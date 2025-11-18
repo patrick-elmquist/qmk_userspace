@@ -1,8 +1,9 @@
 #pragma once
 
+#undef TAPPING_TERM
 #define TAPPING_TERM 150
 
-#define FLOW_TAP_TERM 200
+#define FLOW_TAP_TERM 150
 
 #define COMBO_TERM 35
 #define COMBO_TERM_PER_COMBO

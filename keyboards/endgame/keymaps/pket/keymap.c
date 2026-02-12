@@ -45,6 +45,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
     ),
 
+    [_GRALMAK] = LAYOUT_wrapper_eg(
+      ________________GRALMAK_L1_5_______________,     ________________GRALMAK_R1_5_______________,
+      ________________GRALMAK_L2_5_______________,     ________________GRALMAK_R2_5_______________,
+      ________________GRALMAK_L3_5_______________,     ________________GRALMAK_R3_5_______________,
+      KC_LSFT,                   ___THUMB_LEFT___,     NAV_BSP, RAI_ENT,                   KC_RSFT
+    ),
+
     [_QWERTY] = LAYOUT_wrapper_eg(
       ________________QWERTY_L1_5________________,     ________________QWERTY_R1_5________________,
       ________________QWERTY_L2_5________________,     ________________QWERTY_R2_5________________,

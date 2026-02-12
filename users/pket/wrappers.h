@@ -35,6 +35,14 @@
 #define ________________GRAPHITE_R2_5______________ KC_Y,    KC_H,    KC_A,    KC_E,    KC_I
 #define ________________GRAPHITE_R3_5______________ KC_K,    KC_P,    KC_COMM, KC_DOT,  KC_SLSH
 
+#define ________________GRALMAK_L1_5_______________ KC_B,    KC_L,    KC_D,    KC_W,    KC_Q
+#define ________________GRALMAK_L2_5_______________ KC_N,    KC_R,    KC_T,    KC_S,    KC_G
+#define ________________GRALMAK_L3_5_______________ KC_Z,    KC_X,    KC_M,    KC_C,    KC_V
+
+#define ________________GRALMAK_R1_5_______________ KC_J,    KC_F,    KC_O,    KC_U,    KC_SCLN
+#define ________________GRALMAK_R2_5_______________ KC_Y,    KC_H,    KC_A,    KC_E,    KC_I
+#define ________________GRALMAK_R3_5_______________ KC_K,    KC_P,    KC_COMM, KC_DOT,  KC_SLSH
+
 #define ________________QWERTY_L1_5________________ KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
 #define ________________QWERTY_L2_5________________ KC_A,    KC_S,    KC_D,    KC_F,    KC_G
 #define ________________QWERTY_L3_5________________ KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
@@ -44,7 +52,7 @@
 #define ________________QWERTY_R3_5________________ KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH
 
 #define ________________LOWER__L1_5________________ KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC
-#define ________________LOWER__L2_5________________ OSM_CTL, OSM_ALT, OSM_GUI, OSM_SFT, KC_GRV
+#define ________________LOWER__L2_5________________ OSM_CTL, OSM_ALT, OSM_GUI, _______, KC_GRV
 #define ________________LOWER__L3_5________________ _______, _______, _______, _______, KC_TILD
 
 #define ________________LOWER__R1_5________________ KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN
@@ -81,7 +89,7 @@
 
 #define ________________ADJUST_R1_5________________ KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10
 #define ________________ADJUST_R2_5________________ DFL_COL, CK_UP,   CK_TOGG, CK_DOWN, KC_F11
-#define ________________ADJUST_R3_5________________ DFL_GRA, DFL_GA2, DFL_GAL, DFL_QWE, KC_F12
+#define ________________ADJUST_R3_5________________ DFL_GRM, DFL_GRA, _______, _______, KC_F12
 
 #define ___THUMB_LEFT___ SYSTEM, LOW_SPC
 #define ___THUMB_RIGHT__ RAI_ESC, NAV_BSP
@@ -131,6 +139,14 @@
 #define _____________________SYSTEM_R1______________________ ________________SYSTEM_R1_5________________, _______
 #define _____________________SYSTEM_R2______________________ ________________SYSTEM_R2_5________________, _______
 #define _____________________SYSTEM_R3______________________ ________________SYSTEM_R3_5________________, _______
+
+#define _____________________NAV_L1_________________________ _______, ________________NAV_L1_5___________________
+#define _____________________NAV_L2_________________________ _______, ________________NAV_L2_5___________________
+#define _____________________NAV_L3_________________________ _______, ________________NAV_L3_5___________________
+
+#define _____________________NAV_R1_________________________ ________________NAV_R1_5___________________, _______
+#define _____________________NAV_R2_________________________ ________________NAV_R2_5___________________, _______
+#define _____________________NAV_R3_________________________ ________________NAV_R3_5___________________, _______
 
 #define _____________________ADJUST_L1______________________ _______, ________________ADJUST_L1_5________________
 #define _____________________ADJUST_L2______________________ _______, ________________ADJUST_L2_5________________

@@ -85,4 +85,5 @@ enum custom_keycodes {
 #define DFL_GAL DF(_GALLIUM)
 #define DFL_GA2 DF(_GALLIUM_V2)
 #define DFL_GRA DF(_GRAPHITE)
+#define DFL_GRM DF(_GRALMAK)
 

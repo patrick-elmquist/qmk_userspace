@@ -8,7 +8,8 @@
 #define COMBO_TERM 35
 #define COMBO_TERM_PER_COMBO
 #define COMBO_MUST_TAP_PER_COMBO
-// #define COMBO_ONLY_FROM_LAYER 0
+// This was commented out and I can't recall why...
+#define COMBO_ONLY_FROM_LAYER 0
 #define COMBO_SHOULD_TRIGGER
 
 #define TAPPING_TERM_PER_KEY

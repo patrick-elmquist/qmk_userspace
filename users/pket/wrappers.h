@@ -94,7 +94,7 @@
 #define ___THUMB_LEFT___ SYSTEM, LOW_SPC
 #define ___THUMB_RIGHT__ RAI_ESC, NAV_BSP
 
-#define _______THUMB_LEFT________ _______, SYSTEM, LOW_SPC
+#define _______THUMB_LEFT________ TEAMS,   SYSTEM, LOW_SPC
 #define _______THUMB_RIGHT_______ RAI_ENT, NAV_BSP, KC_COLN
 
 #define _______THUMB_LEFT_2______ SYS_REP, LOW_SPC, KC_ESC
